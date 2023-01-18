@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PILILANI Resort</title>
+  <link rel="stylesheet" href="assets/css/contents.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="bg-header"></div>
+    <div class="header-logo">
+      <a href="index.html"><img src="images/logo-black.png" alt=""></a>
+    </div>
+
+    <!-- for laptop menu -->
+    <div class="header-menu-list">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="pool&beach.html">Pool & Beach</a></li>
+        <li><a href="spa.html">Spa</a></li>
+        <li><a href="other.html">Other facilities</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="access.html">Access</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+      </ul>
+    </div>
+
+    <!-- for mobile & tablet menu -->
+    <span id="open" onclick="openNav()">&#9776;</span>
+    <div id="mobileNav" class="overlay">      
+     
+          <!-- <img src="images/logo-black.png" alt=""> -->
+          <a href="javascript:void(0)" id="close" onclick="closeNav()">&times;</a>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="pool&beach.html">Pool & Beach</a></li>
+            <li><a href="spa.html">Spa</a></li>
+            <li><a href="other.html">Other facilities</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+          </ul>
+          <!-- <a href=""><img src="images/instagram.png" alt=""></a> -->
+      
+
+    </div> 
+    
+  </header>
+  
+  <main>
+    <div class="title">
+      <h2>Pool & Beach</h2>
+    </div>
+    <div class="sec sec-1">
+      <div class="image">
+        <img src="images/pool.jpg" alt="pool">
+      </div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quisquam, mollitia quo deleniti ex a?
+        </p>
+        <img src="images/arrow-right.png" id="read-1">
+        <img src="images/arrow-down.png" id="read-1-down">
+        <p id="read-1-detail">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime officia ea praesentium nam nemo libero facilis veritatis perferendis. Accusamus, vitae.
+        </p>
+      </div>
+    </div>
+    
+    <div class="sec sec-2">
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae numquam, ratione alias nulla itaque id!
+        </p>
+        <img src="images/arrow-right.png" id="read-2">
+        <img src="images/arrow-down.png" id="read-2-down">
+        <p id="read-2-detail">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestias dicta veniam fugiat ex doloremque, minus explicabo eligendi quod. Amet!
+        </p>
+      </div>
+      <div class="image">
+        <img src="images/beach.jpg" alt="beach">
+      </div>
+    </div>
+
+    <div class="sec-3">
+      <p>Pool <i class="fa-regular fa-clock"></i></p>
+      <table border="1">
+        <tr>
+          <th>Day</th>
+          <th>Schedule</th>
+        </tr>
+        <tr>
+          <td>Monday to Friday</td>
+          <td>8:00-19:00</td>
+        </tr>
+        <tr>
+          <td>Saturday & Sunday</td>
+          <td>8:00-22:00</td>
+        </tr>
+      </table>
+      <p>Please ask our staff for detail.<a href="#detail"><i class="fa-solid fa-phone"></i><i class="fa-regular fa-envelope"></i></a></p>
+    </div>
+
+    <div class="video">
+      <img src="images/video.png" class="video-icon" alt="video-icon">
+      <video src="images/movie.mp4" controls></video>
+    </div>
+
+
+    <div class="movepage">
+      <div class="link-home">
+        <a href="index.html"><img src="images/home.png" alt="home"></a>
+      </div>
+      <div class="link-next">
+        <a href="restaurants.html"><img src="images/arrow-left.png" alt="prev"></a>
+        <a href="spa.html"><img src="images/arrow-right.png" alt="next"></a>
+      </div>    
+    </div>
+    
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+    </div>
+    <div class="footer-info">
+      <p><i class="fa-solid fa-phone"></i> 0570-222-333</p>
+      <p><i class="fa-regular fa-envelope"></i> pililani@resort.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> 〒222-3333 1-2-3, Uehara, Taketomi-cho, Yaeyama-gun, Okinawa</p>
+      <a href="access.html"><p>>> Access</p></a>
+    </div>
+    <div class="btn-reserv">
+      <a href="reservation.html"><button>Reservation</button></a>
+    </div>
+    <div class="sns">
+      <a href=""><img src="images/instagram.png" alt=""></a>
+    </div>
+
+  </footer>
+  <div class="copyright">
+    <p>&copy; 2022 Mika Kushibiki</p>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/js/javascript-menu.js"></script>
+  <script src="assets/js/jQuery.js"></script>
+</body>
+</html>

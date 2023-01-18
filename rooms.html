@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PILILANI Resort</title>
+  <link rel="stylesheet" href="assets/css/contents.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="bg-header"></div>
+    <div class="header-logo">
+      <a href="index.html"><img src="images/logo-black.png" alt=""></a>
+    </div>
+
+    <!-- for laptop menu -->
+    <div class="header-menu-list">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="pool&beach.html">Pool & Beach</a></li>
+        <li><a href="spa.html">Spa</a></li>
+        <li><a href="other.html">Other facilities</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="access.html">Access</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+      </ul>
+    </div>
+
+    <!-- for mobile & tablet menu -->
+    <span id="open" onclick="openNav()">&#9776;</span>
+    <div id="mobileNav" class="overlay">      
+     
+          <!-- <img src="images/logo-black.png" alt=""> -->
+          <a href="javascript:void(0)" id="close" onclick="closeNav()">&times;</a>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="pool&beach.html">Pool & Beach</a></li>
+            <li><a href="spa.html">Spa</a></li>
+            <li><a href="other.html">Other facilities</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+          </ul>
+          <!-- <a href=""><img src="images/instagram.png" alt=""></a> -->
+      
+    </div>     
+  </header>
+  
+  <main>
+    <div class="title">
+      <h2>Rooms</h2>
+    </div>
+    <div class="sec sec-1">
+      <div class="image">
+        <img src="images/rooms.jpg" alt="room1">
+        <!-- <img src="images/photo.png" id="modal-btn-1" class="modal-btn"> -->
+        <p id="modal-btn-1" class="modal-btn">>> Click here for more photos</p>
+      </div>
+      <div class="text">
+        <p>- 1-bed-room -</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, natus.
+        </p>
+        <img src="images/arrow-right.png" id="read-1">
+        <img src="images/arrow-down.png" id="read-1-down">
+        <p id="read-1-detail">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, fuga tenetur. Quia officiis perspiciatis nihil.
+        </p>
+      </div>
+    </div>
+    
+    <div class="sec sec-2">
+      <div class="text">
+        <p>- 2-bed-room -</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptate.
+        </p>
+        <img src="images/arrow-right.png" id="read-2">
+        <img src="images/arrow-down.png" id="read-2-down">
+        <p id="read-2-detail">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero obcaecati ea doloribus amet voluptates delectus!
+        </p>
+      </div>
+      <div class="image rooms-2-image">
+        <img src="images/rooms-3.jpg" alt="room2">
+        <!-- <img src="images/photo.png" id="modal-btn-2" class="modal-btn"> -->
+        <p id="modal-btn-2" class="modal-btn">>> Click here for more photos</p>
+      </div>
+    </div>
+
+    <!-- modal -->
+    <div class="overlay-1" id="modal-1">
+      <div class="modal-wrapper">
+        <div class="modal">
+          <a href="" id="close" onclick="">&times;</a>
+          <img src="images/room-modal-1a.jpg" alt="">
+          <img src="images/room-modal-1b.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="overlay-2" id="modal-2">
+      <div class="modal-wrapper">
+        <div class="modal">
+          <a href="" id="close" onclick="">&times;</a>
+          <img src="images/room-modal-2a.jpg" alt="">
+          <img src="images/room-modal-2b.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="sec-3">
+      <!-- <table border="1">
+        <tr>
+          <th>Type</th>
+          <th>People</th>
+          <th>Size</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>one-bed room</td>
+          <td>2</td>
+          <td>40m&sup2;</td>
+          <td>$200~</td>
+        </tr>
+        <tr>
+          <td>two-bed room</td>
+          <td>2-4</td>
+          <td>60m&sup2;</td>
+          <td>$400~</td>
+        </tr>
+      </table>
+      <p>Please ask our staff for detail.</p> -->
+
+
+      <!-- table tab -->
+      <!-- buttons -->
+      <div class="button-wrapper">
+        <button id="default" class="tablink one-bed" onclick="openRoom('one-bed')">One-bed-room</button>
+        <button class="tablink two-bed" onclick="openRoom('two-bed')">Two-bed-room</button>
+      </div>
+
+      <!-- contents -->
+      <div class="tabcontent" id="one-bed">
+        <img src="images/rooms.jpg">
+        <div class="tab-text">
+          <p>People: 2</p>
+          <p>Size: 40&sup2;</p>
+          <p>Price: $200-</p>
+        </div>
+      </div>
+      <div class="tabcontent" id="two-bed">
+        <img src="images/rooms.jpg">
+        <div class="tab-text">
+          <p>People: 2-4</p>
+          <p>Size: 60&sup2;</p>
+          <p>Price: $400-</p>
+        </div>
+      </div>
+      <p>Please ask our staff for detail.<a href="#detail"><i class="fa-solid fa-phone"></i><i class="fa-regular fa-envelope"></i></a></p>
+
+      </a>
+      
+
+      
+
+
+
+    </div>
+
+    <div class="movepage">
+      <div class="link-home">
+        <a href="index.html"><img src="images/home.png" alt="home"></a>
+      </div>
+      <div class="link-next">
+        <a href="about.html"><img src="images/arrow-left.png" alt="prev"></a>
+        <a href="restaurants.html"><img src="images/arrow-right.png" alt="next"></a>
+      </div>    
+    </div>
+    
+  </main>
+
+  <footer id="detail">
+    <div class="footer-logo">
+      <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+    </div>
+    <div class="footer-info">
+      <p><i class="fa-solid fa-phone"></i> 0570-222-333</p>
+      <p><i class="fa-regular fa-envelope"></i> pililani@resort.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> 〒222-3333 1-2-3, Uehara, Taketomi-cho, Yaeyama-gun, Okinawa</p>
+      <a href="access.html"><p>>> Access</p></a>
+    </div>
+    <div class="btn-reserv">
+      <a href="reservation.html"><button>Reservation</button></a>
+    </div>
+    <div class="sns">
+      <a href=""><img src="images/instagram.png" alt=""></a>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>&copy; 2022 Mika Kushibiki</p>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/17189f68ce.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/js/javascript-menu.js"></script>
+  <script src="assets/js/jQuery.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PILILANI Resort</title>
+  <link rel="stylesheet" href="assets/css/access.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="bg-header"></div>
+    <div class="header-logo">
+      <a href="index.html"><img src="images/logo-black.png" alt=""></a>
+    </div>
+
+    <!-- for laptop menu -->
+    <div class="header-menu-list">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="pool&beach.html">Pool & Beach</a></li>
+        <li><a href="spa.html">Spa</a></li>
+        <li><a href="other.html">Other facilities</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="access.html">Access</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+      </ul>
+    </div>
+
+    <!-- for mobile & tablet menu -->
+    <span id="open" onclick="openNav()">&#9776;</span>
+    <div id="mobileNav" class="overlay">      
+     
+          <!-- <img src="images/logo-black.png" alt=""> -->
+          <a href="javascript:void(0)" id="close" onclick="closeNav()">&times;</a>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="pool&beach.html">Pool & Beach</a></li>
+            <li><a href="spa.html">Spa</a></li>
+            <li><a href="other.html">Other facilities</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+          </ul>
+          <!-- <a href=""><img src="images/instagram.png" alt=""></a> -->
+      
+
+    </div> 
+    
+  </header>
+  
+  <main>
+    <div class="title">
+      <h2>Access</h2>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7697.5394201198405!2d123.77903894964284!3d24.424583260463738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1663733331926!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div class="address">
+      <p><i class="fa-solid fa-location-dot"></i></p>
+      <p>〒222-3333 1-2-3, Uehara, Taketomi-cho, Yaeyama-gun, Okinawa</p>
+    </div>
+    <div class="access-container">
+      <div class="car">
+        <div class="access-image">
+          <img src="images/car_hoso.png" alt="car">
+          <h4>By car</h4>
+        </div>
+        <div class="access-text">
+          <p>If you need, You can go to the rent-a-car office in Pililani Airport.</p>
+          <p>It takes about 15 minutes from airport to our place.</p>
+        </div>
+      </div>
+      <div class="bus">
+        <div class="access-image">
+          <img src="images/bus.png" alt="bus">
+          <h4>By bus</h4>
+        </div>
+        <div class="access-text">
+          <p>Here is our Shuttle Bus Timetable <a href="#">>> PDF</a></p>
+          <p>It takes about 20 minutes from airport to our place.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="movepage">
+      <div class="link-home">
+        <a href="index.html"><img src="images/home.png" alt="home"></a>
+      </div>
+      <div class="link-next">
+        <a href="activities.html"><img src="images/arrow-left.png" alt="prev"></a>
+        <a href="reservation.html"><img src="images/arrow-right.png" alt="next"></a>
+      </div>    
+    </div>
+    
+  </main>
+
+
+  <footer>
+    <div class="footer-logo">
+      <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+    </div>
+    <div class="footer-info">
+      <p><i class="fa-solid fa-phone"></i> 0570-222-333</p>
+      <p><i class="fa-regular fa-envelope"></i> pililani@resort.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> 〒222-3333 1-2-3, Uehara, Taketomi-cho, Yaeyama-gun, Okinawa</p>
+      <a href="access.html"><p>>> Access</p></a>
+    </div>
+    <div class="btn-reserv">
+      <a href="reservation.html"><button>Reservation</button></a>
+    </div>
+    <div class="sns">
+      <a href=""><img src="images/instagram.png" alt=""></a>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>&copy; 2022 Mika Kushibiki</p>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/js/javascript-menu.js"></script>
+  <script src="assets/js/jQuery.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PILILANI Resort</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="bg-header"></div>
+    <div class="header-logo">
+      <a href="index.html"><img src="images/logo-black.png" alt="" id="header-logo" class=""></a>
+    </div>
+
+    <!-- for laptop menu -->
+    <div class="header-menu-list">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="pool&beach.html">Pool & Beach</a></li>
+        <li><a href="spa.html">Spa</a></li>
+        <li><a href="other.html">Other facilities</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="access.html">Access</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+      </ul>
+    </div>
+
+    <!-- for mobile & tablet menu -->
+    <span id="open" onclick="openNav()">&#9776;</span>
+    <div id="mobileNav" class="overlay">          
+
+          <a href="javascript:void(0)" id="close" onclick="closeNav()">&times;</a>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="pool&beach.html">Pool & Beach</a></li>
+            <li><a href="spa.html">Spa</a></li>
+            <li><a href="other.html">Other facilities</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+          </ul>
+
+    </div> 
+    
+  </header>
+  
+  <main>
+    <div class="sec-1">
+      <div class="sec-1-inside">
+        <h2>What's new</h2>
+        <p class="date">9/20/2022</p>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis delectus id error ut hic.</p>
+        <p class="readmore"><a href="restaurants.html">>> Read more...</a></p>
+        
+        <p class="date">9/10/2022</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis explicabo itaque aliquam asperiores! Provident?</p>
+        <p class="readmore"><a href="activities.html">>> Read more...</a></p>
+
+        <a href="new.html"><i class="fa-regular fa-eye"></i></a>
+      </div>
+    </div>
+    
+    <div class="sec-2">
+      <div id="slider">
+        <a href="javascript:void(0)" class="control_next"> > </a>
+        <a href="javascript:void(0)" class="control_prev"> < </a>
+
+        <ul>
+          <li class="slide-1">
+            <img src="images/sliderimg-1.jpg">
+          </li>
+          <li class="slide-2">
+            <img src="images/sliderimg-2.jpg">
+          </li>
+          <li class="slide-3">
+            <img src="images/sliderimg-3.jpg">
+          </li>
+          <li class="slide-4">
+            <img src="images/sliderimg-4.jpg">
+          </li>
+          <li class="slide-5">
+            <img src="images/sliderimg-5.jpg">
+          </li>
+          
+        </ul>
+      </div>
+      <div class="slider-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, nulla!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quas.</p>
+      </div>
+    </div>
+
+    <div class="sec-3">
+      <ul>
+        <li class="about menu-1">
+          <a href="about.html">
+            <p>About</p>
+          </a>
+        </li>
+
+        <li class="rooms menu-2">
+          <a href="rooms.html">
+            <p>Rooms</p>
+          </a>
+        </li>
+
+        <li class="restaurants menu-1">
+          <a href="restaurants.html">
+            <p>Restaurants</p>
+          </a>
+        </li>
+
+        <li class="poolbeach menu-2">
+          <a href="pool&beach.html">
+            <p>Pool & Beach</p>
+          </a>
+        </li>
+
+        <li class="spa menu-1">
+          <a href="spa.html">
+            <p>Spa</p>
+          </a>
+        </li>
+
+        <li class="other menu-2">
+          <a href="other.html">
+            <p>Other facilities</p>
+          </a>
+        </li>
+
+        <li class="activities menu-1">
+          <a href="activities.html">
+            <p>Activities</p>
+          </a>
+        </li>
+
+        <li class="access menu-2">
+          <a href="access.html">
+            <p>Access</p>
+          </a>
+        </li>
+
+        <li class="reservation menu-1">
+          <a href="reservation.html">
+            <p>Reservation</p>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="sec-4">
+      <div class="overlay-sec-4"></div>
+      <img src="images/bd-sec4.jpg" alt="">
+      <div class="sec-4-contents">
+        <div class="sec-4-contents-inside">
+          <h2>For wedding & honeymooners</h2>
+          <i class="fa-regular fa-rings-wedding"></i>
+          <p class="text-title">Lorem, ipsum dolor.</p>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis delectus id error ut hic.</p>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis delectus id error ut hic.</p>
+          <p class="readmore"><a href="wedding-1.html">>> Read more...</a></p>
+          
+          <p class="text-title">Lorem ipsum dolor sit.</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis explicabo itaque aliquam asperiores! Provident?</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis explicabo itaque aliquam asperiores! Provident?</p>
+          <p class="readmore"><a href="wedding-2.html">>> Read more...</a></p>
+          <div class="clickhere">
+            <p id="clickhere"><span>♥</span>Click here<span>♥</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 
+    <div class="sec-5">
+      <img src="images/video.png" class="video-icon" alt="video-icon">
+      <video src="images/movie.mp4" controls></video>
+    </div> -->
+
+
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+    </div>
+    <div class="footer-info">
+      <p><i class="fa-solid fa-phone"></i> 0570-222-333</p>
+      <p><i class="fa-regular fa-envelope"></i> pililani@resort.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> 〒222-3333 1-2-3, Uehara, Taketomi-cho, Yaeyama-gun, Okinawa</p>
+      <a href="access.html"><p>>> Access</p></a>
+    </div>
+    <div class="btn-reserv">
+      <a href="reservation.html"><button>Reservation</button></a>
+    </div>
+    <div class="sns">
+      <a href=""><img src="images/instagram.png" alt=""></a>
+    </div>
+  </footer>
+
+  <div class="faq">
+    <a href="faq.html">
+      <img src="images/faq.png" alt="faq" id="faq">
+      <!-- <p>FAQ</p> -->
+    </a>
+  </div>
+
+  <div class="copyright">
+    <p>&copy; 2022 Mika Kushibiki</p>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/17189f68ce.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/js/javascript-menu.js"></script>
+  <script src="assets/js/jQuery.js"></script>
+</body>
+</html>
